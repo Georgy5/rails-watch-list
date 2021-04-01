@@ -12,7 +12,7 @@ import 'bootstrap';
 
 document.addEventListener("turbolinks:load", () => {
   $('[data-toggle="tooltip"]').tooltip()
-  $('[data-toggle="tooltip"]').popover()
+  $('[data-toggle="popover"]').popover()
 })
 
 
